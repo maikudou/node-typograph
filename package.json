@@ -2,7 +2,7 @@
   "name": "node-typograph",
   "version": "0.0.1",
   "description": "Node.js client for Typograph web-service",
-  "main": "index.js",
+  "main": "typograph.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
