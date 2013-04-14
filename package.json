@@ -1,0 +1,23 @@
+{
+  "name": "node-typograph",
+  "version": "0.0.1",
+  "description": "Node.js client for Typograph web-service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maikudou/node-typograph.git"
+  },
+  "keywords": [
+    "typography",
+    "web"
+  ],
+  "author": "Mikhail Labanov",
+  "license": "BSD",
+  "gitHead": "24b050e079c22d2c9363fb856678b093e42c9de4",
+  "dependencies": {
+    "argchecker": "~0.2.0"
+  }
+}
