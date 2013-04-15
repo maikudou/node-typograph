@@ -1,10 +1,10 @@
 {
   "name": "node-typograph",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Node.js client for Typograph web-service",
   "main": "index.js",
   "bin": {
-    "typograph": "typograph.js"
+    "typograph": ".bin/typograph"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
