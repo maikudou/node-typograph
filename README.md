@@ -1,4 +1,11 @@
-Typograph
+Node typograph
 =========
+Uses typograph web-service by Art.Lebesev studio
 
-Usage: node typograph.js [-p] [-br] [-mn maxNobr] text
+Install:
+
+    npm install node-typograph
+  
+Usage:
+
+    typograph [-p, --usep] [-br, --usebr] [-mn, --maxnobr maxNobr] -t, --text text

@@ -1,0 +1,18 @@
+#!/usr/bin/env node
+
+var program = require('commander'),
+    typograph = require('../index').start
+
+
+program
+  .version('0.0.3')
+  .usage('[options] [dir|file ...]')
+  .option('-p, --usep', 'Use <p>')
+  .option('-br, --usebr', 'Use <dir>')
+  .option('-mn, --maxmobr <value>', 'filename used to resolve includes', 0)
+  .option('-t, --text <text>', 'Text for typograph', null)
+
+program.parse(process.argv);
+
+typograph(program);
+
