@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "typograph": "./bin/typograph"
+    "typograph": "bin/typograph"
   },
   "repository": {
     "type": "git",

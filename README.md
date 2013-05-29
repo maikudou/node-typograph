@@ -1,6 +1,6 @@
 Node typograph
 =========
-Uses typograph web-service by Art.Lebesev studio
+Uses typograph [web-service](http://www.artlebedev.ru/tools/typograf/webservice/) by Art.Lebesev studio
 
 Install
 -------
