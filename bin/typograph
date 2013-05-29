@@ -1,18 +1,24 @@
 #!/usr/bin/env node
 
 var program = require('commander'),
-    typograph = require('../index').start
+    typograph = require('../typograph')
 
 
 program
-  .version('0.0.4')
+  .version('0.0.5')
   .usage('[options] [dir|file ...]')
   .option('-p, --usep', 'Use <p>')
-  .option('-br, --usebr', 'Use <dir>')
-  .option('-mn, --maxmobr <value>', 'filename used to resolve includes', 0)
-  .option('-t, --text <text>', 'Text for typograph', null)
+  .option('-b, --usebr', 'Use <br>')
+  .option('-m, --maxnobr <int>', 'Maximum nobrs', 0)
+  .option('-t, --text "<text>"', 'Text for typograph', null)
 
 program.parse(process.argv);
 
-typograph(program);
+typograph.start(program, function(err, data){
+    if(err == null){
+        console.log(data);
+    } else {
+        console.log(err);
+    }
+});
 

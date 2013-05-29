@@ -1,1 +1,3 @@
-module.exports = require('./typograph.js')
+typograph = require('./typograph.js')
+
+module.exports = typograph

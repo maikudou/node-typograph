@@ -1,13 +1,14 @@
 {
   "name": "node-typograph",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Node.js client for Typograph web-service",
   "main": "index.js",
   "bin": {
-    "typograph": ".bin/typograph"
+    "typograph": "./bin/typograph"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "typograph": "./bin/typograph"
   },
   "repository": {
     "type": "git",
@@ -18,11 +19,14 @@
     "web"
   ],
   "author": "Mikhail Labanov",
-  "license": "BSD",
+  "license": "MIT",
   "gitHead": "24b050e079c22d2c9363fb856678b093e42c9de4",
   "dependencies": {
     "commander": "~1.1.1"
   },
   "readmeFilename": "README.md",
-  "devDependencies": {}
+  "devDependencies": {},
+  "directories": {
+    "example": "examples"
+  }
 }

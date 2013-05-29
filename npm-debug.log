@@ -1,0 +1,148 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@1.2.18
+3 info using node@v0.10.4
+4 verbose publish [ '.' ]
+5 verbose read json /Users/nikolay.ivanushkin/Documents/Aptana/node-typograph/package.json
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . /Users/nikolay.ivanushkin/.npm/3a52ce78-.lock
+11 verbose read json package.json
+12 verbose tar pack [ '/var/folders/vw/srw2gqtd20b1zs316hcxzwgxgl73h9/T/npm-12319/1369841963416-0.4648627950809896/tmp.tgz',
+12 verbose tar pack   '.' ]
+13 verbose tarball /var/folders/vw/srw2gqtd20b1zs316hcxzwgxgl73h9/T/npm-12319/1369841963416-0.4648627950809896/tmp.tgz
+14 verbose folder .
+15 info prepublish node-typograph@0.0.5
+16 silly lockFile 3a52ce78- .
+17 verbose lock . /Users/nikolay.ivanushkin/.npm/3a52ce78-.lock
+18 silly lockFile b88bb82e-63416-0-4648627950809896-tmp-tgz /var/folders/vw/srw2gqtd20b1zs316hcxzwgxgl73h9/T/npm-12319/1369841963416-0.4648627950809896/tmp.tgz
+19 verbose lock /var/folders/vw/srw2gqtd20b1zs316hcxzwgxgl73h9/T/npm-12319/1369841963416-0.4648627950809896/tmp.tgz /Users/nikolay.ivanushkin/.npm/b88bb82e-63416-0-4648627950809896-tmp-tgz.lock
+20 silly lockFile 3a52ce78- .
+21 silly lockFile 3a52ce78- .
+22 silly lockFile b88bb82e-63416-0-4648627950809896-tmp-tgz /var/folders/vw/srw2gqtd20b1zs316hcxzwgxgl73h9/T/npm-12319/1369841963416-0.4648627950809896/tmp.tgz
+23 silly lockFile b88bb82e-63416-0-4648627950809896-tmp-tgz /var/folders/vw/srw2gqtd20b1zs316hcxzwgxgl73h9/T/npm-12319/1369841963416-0.4648627950809896/tmp.tgz
+24 verbose tar unpack /var/folders/vw/srw2gqtd20b1zs316hcxzwgxgl73h9/T/npm-12319/1369841963416-0.4648627950809896/tmp.tgz
+25 silly lockFile f7833cc9-63416-0-4648627950809896-package /var/folders/vw/srw2gqtd20b1zs316hcxzwgxgl73h9/T/npm-12319/1369841963416-0.4648627950809896/package
+26 verbose lock /var/folders/vw/srw2gqtd20b1zs316hcxzwgxgl73h9/T/npm-12319/1369841963416-0.4648627950809896/package /Users/nikolay.ivanushkin/.npm/f7833cc9-63416-0-4648627950809896-package.lock
+27 silly lockFile b88bb82e-63416-0-4648627950809896-tmp-tgz /var/folders/vw/srw2gqtd20b1zs316hcxzwgxgl73h9/T/npm-12319/1369841963416-0.4648627950809896/tmp.tgz
+28 verbose lock /var/folders/vw/srw2gqtd20b1zs316hcxzwgxgl73h9/T/npm-12319/1369841963416-0.4648627950809896/tmp.tgz /Users/nikolay.ivanushkin/.npm/b88bb82e-63416-0-4648627950809896-tmp-tgz.lock
+29 silly gunzTarPerm modes [ '755', '644' ]
+30 silly gunzTarPerm extractEntry package.json
+31 silly gunzTarPerm extractEntry .npmignore
+32 silly gunzTarPerm extractEntry README.md
+33 silly gunzTarPerm extractEntry index.js
+34 silly gunzTarPerm extractEntry typograph.js
+35 silly gunzTarPerm extractEntry .gitattributes
+36 silly gunzTarPerm extractEntry bin/typograph
+37 silly gunzTarPerm extractEntry examples/lorem-ipsum.js
+38 verbose read json /var/folders/vw/srw2gqtd20b1zs316hcxzwgxgl73h9/T/npm-12319/1369841963416-0.4648627950809896/package/package.json
+39 silly lockFile f7833cc9-63416-0-4648627950809896-package /var/folders/vw/srw2gqtd20b1zs316hcxzwgxgl73h9/T/npm-12319/1369841963416-0.4648627950809896/package
+40 silly lockFile f7833cc9-63416-0-4648627950809896-package /var/folders/vw/srw2gqtd20b1zs316hcxzwgxgl73h9/T/npm-12319/1369841963416-0.4648627950809896/package
+41 silly lockFile b88bb82e-63416-0-4648627950809896-tmp-tgz /var/folders/vw/srw2gqtd20b1zs316hcxzwgxgl73h9/T/npm-12319/1369841963416-0.4648627950809896/tmp.tgz
+42 silly lockFile b88bb82e-63416-0-4648627950809896-tmp-tgz /var/folders/vw/srw2gqtd20b1zs316hcxzwgxgl73h9/T/npm-12319/1369841963416-0.4648627950809896/tmp.tgz
+43 verbose from cache /var/folders/vw/srw2gqtd20b1zs316hcxzwgxgl73h9/T/npm-12319/1369841963416-0.4648627950809896/package/package.json
+44 verbose tar pack [ '/Users/nikolay.ivanushkin/.npm/node-typograph/0.0.5/package.tgz',
+44 verbose tar pack   '/var/folders/vw/srw2gqtd20b1zs316hcxzwgxgl73h9/T/npm-12319/1369841963416-0.4648627950809896/package' ]
+45 verbose tarball /Users/nikolay.ivanushkin/.npm/node-typograph/0.0.5/package.tgz
+46 verbose folder /var/folders/vw/srw2gqtd20b1zs316hcxzwgxgl73h9/T/npm-12319/1369841963416-0.4648627950809896/package
+47 silly lockFile f7833cc9-63416-0-4648627950809896-package /var/folders/vw/srw2gqtd20b1zs316hcxzwgxgl73h9/T/npm-12319/1369841963416-0.4648627950809896/package
+48 verbose lock /var/folders/vw/srw2gqtd20b1zs316hcxzwgxgl73h9/T/npm-12319/1369841963416-0.4648627950809896/package /Users/nikolay.ivanushkin/.npm/f7833cc9-63416-0-4648627950809896-package.lock
+49 silly lockFile 4f6dae0d-node-typograph-0-0-5-package-tgz /Users/nikolay.ivanushkin/.npm/node-typograph/0.0.5/package.tgz
+50 verbose lock /Users/nikolay.ivanushkin/.npm/node-typograph/0.0.5/package.tgz /Users/nikolay.ivanushkin/.npm/4f6dae0d-node-typograph-0-0-5-package-tgz.lock
+51 silly lockFile f7833cc9-63416-0-4648627950809896-package /var/folders/vw/srw2gqtd20b1zs316hcxzwgxgl73h9/T/npm-12319/1369841963416-0.4648627950809896/package
+52 silly lockFile f7833cc9-63416-0-4648627950809896-package /var/folders/vw/srw2gqtd20b1zs316hcxzwgxgl73h9/T/npm-12319/1369841963416-0.4648627950809896/package
+53 silly lockFile 4f6dae0d-node-typograph-0-0-5-package-tgz /Users/nikolay.ivanushkin/.npm/node-typograph/0.0.5/package.tgz
+54 silly lockFile 4f6dae0d-node-typograph-0-0-5-package-tgz /Users/nikolay.ivanushkin/.npm/node-typograph/0.0.5/package.tgz
+55 silly lockFile ce83a36f-npm-node-typograph-0-0-5-package /Users/nikolay.ivanushkin/.npm/node-typograph/0.0.5/package
+56 verbose lock /Users/nikolay.ivanushkin/.npm/node-typograph/0.0.5/package /Users/nikolay.ivanushkin/.npm/ce83a36f-npm-node-typograph-0-0-5-package.lock
+57 silly lockFile ce83a36f-npm-node-typograph-0-0-5-package /Users/nikolay.ivanushkin/.npm/node-typograph/0.0.5/package
+58 silly lockFile ce83a36f-npm-node-typograph-0-0-5-package /Users/nikolay.ivanushkin/.npm/node-typograph/0.0.5/package
+59 verbose tar unpack /Users/nikolay.ivanushkin/.npm/node-typograph/0.0.5/package.tgz
+60 silly lockFile ce83a36f-npm-node-typograph-0-0-5-package /Users/nikolay.ivanushkin/.npm/node-typograph/0.0.5/package
+61 verbose lock /Users/nikolay.ivanushkin/.npm/node-typograph/0.0.5/package /Users/nikolay.ivanushkin/.npm/ce83a36f-npm-node-typograph-0-0-5-package.lock
+62 silly lockFile 4f6dae0d-node-typograph-0-0-5-package-tgz /Users/nikolay.ivanushkin/.npm/node-typograph/0.0.5/package.tgz
+63 verbose lock /Users/nikolay.ivanushkin/.npm/node-typograph/0.0.5/package.tgz /Users/nikolay.ivanushkin/.npm/4f6dae0d-node-typograph-0-0-5-package-tgz.lock
+64 silly gunzTarPerm modes [ '755', '644' ]
+65 silly gunzTarPerm extractEntry package.json
+66 silly gunzTarPerm extractEntry .npmignore
+67 silly gunzTarPerm extractEntry README.md
+68 silly gunzTarPerm extractEntry index.js
+69 silly gunzTarPerm extractEntry typograph.js
+70 silly gunzTarPerm extractEntry .gitattributes
+71 silly gunzTarPerm extractEntry bin/typograph
+72 silly gunzTarPerm extractEntry examples/lorem-ipsum.js
+73 verbose read json /Users/nikolay.ivanushkin/.npm/node-typograph/0.0.5/package/package.json
+74 silly lockFile ce83a36f-npm-node-typograph-0-0-5-package /Users/nikolay.ivanushkin/.npm/node-typograph/0.0.5/package
+75 silly lockFile ce83a36f-npm-node-typograph-0-0-5-package /Users/nikolay.ivanushkin/.npm/node-typograph/0.0.5/package
+76 silly lockFile 4f6dae0d-node-typograph-0-0-5-package-tgz /Users/nikolay.ivanushkin/.npm/node-typograph/0.0.5/package.tgz
+77 silly lockFile 4f6dae0d-node-typograph-0-0-5-package-tgz /Users/nikolay.ivanushkin/.npm/node-typograph/0.0.5/package.tgz
+78 silly shasum updated bytes 4469
+79 info shasum eca0b5272f779b280f004925b87b6b89b0b98454
+79 info shasum /Users/nikolay.ivanushkin/.npm/node-typograph/0.0.5/package.tgz
+80 verbose from cache /Users/nikolay.ivanushkin/.npm/node-typograph/0.0.5/package/package.json
+81 verbose chmod /Users/nikolay.ivanushkin/.npm/node-typograph/0.0.5/package.tgz 644
+82 verbose chown /Users/nikolay.ivanushkin/.npm/node-typograph/0.0.5/package.tgz [ 1597214217, 1688547791 ]
+83 silly lockFile 3a52ce78- .
+84 silly publish { name: 'node-typograph',
+84 silly publish   version: '0.0.5',
+84 silly publish   description: 'Node.js client for Typograph web-service',
+84 silly publish   main: 'index.js',
+84 silly publish   bin: { typograph: './bin/typograph' },
+84 silly publish   scripts:
+84 silly publish    { test: 'echo "Error: no test specified" && exit 1',
+84 silly publish      typograph: './bin/typograph' },
+84 silly publish   repository:
+84 silly publish    { type: 'git',
+84 silly publish      url: 'https://github.com/maikudou/node-typograph.git' },
+84 silly publish   keywords: [ 'typography', 'web' ],
+84 silly publish   author: { name: 'Mikhail Labanov' },
+84 silly publish   license: 'MIT',
+84 silly publish   gitHead: '24b050e079c22d2c9363fb856678b093e42c9de4',
+84 silly publish   dependencies: { commander: '~1.1.1' },
+84 silly publish   readmeFilename: 'README.md',
+84 silly publish   devDependencies: {},
+84 silly publish   directories: { example: 'examples' },
+84 silly publish   readme: 'Node typograph\n=========\nUses typograph web-service by Art.Lebesev studio\n\nInstall\n-------\n\n~~~~~ bash\nnpm install node-typograph\n~~~~~\n  \nUsage\n-----\n\nFrom terminal:\n\n~~~~~ bash\ntypograph -t, --text "text" [-p, --usep] [-b, --usebr] [-m, --maxnobr maxNobr]\n~~~~~\n\nFron node.js script\n\n~~~~~ js\nvar typograph = require(\'typograph\');\n\nvar params = {\n    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed semper dui non justo bibendum vel tincidunt arcu tristique. Sed luctus luctus elit ut facilisis. Donec cursus magna a libero interdum ac luctus lacus auctor. Fusce sit amet lorem urna, ut molestie sem. Nunc imperdiet pretium sagittis. Mauris aliquam, nibh ac accumsan molestie, metus diam facilisis lectus, non mollis metus dolor nec urna. Aliquam accumsan tincidunt libero, et blandit diam dictum et. Donec lorem est, vulputate at blandit sit amet, sodales in orci. Donec quis nunc nulla. Nam sollicitudin viverra eleifend. Nulla facilisi. Pellentesque a arcu in tellus imperdiet euismod. Fusce convallis ullamcorper consequat."\n}\n\ntypograph.start(params, function(err, data){\n    if(err == null){\n        console.log(data);\n    } else {\n        console.log(err);\n    }\n});\n~~~~~\n',
+84 silly publish   _id: 'node-typograph@0.0.5',
+84 silly publish   dist: { shasum: 'eca0b5272f779b280f004925b87b6b89b0b98454' },
+84 silly publish   _from: '.' }
+85 verbose url raw node-typograph
+86 verbose url resolving [ 'https://registry.npmjs.org/', './node-typograph' ]
+87 verbose url resolved https://registry.npmjs.org/node-typograph
+88 info trying registry request attempt 1 at 19:39:33
+89 http PUT https://registry.npmjs.org/node-typograph
+90 http 409 https://registry.npmjs.org/node-typograph
+91 verbose url raw node-typograph
+92 verbose url resolving [ 'https://registry.npmjs.org/', './node-typograph' ]
+93 verbose url resolved https://registry.npmjs.org/node-typograph
+94 info trying registry request attempt 1 at 19:39:35
+95 http GET https://registry.npmjs.org/node-typograph
+96 http 200 https://registry.npmjs.org/node-typograph
+97 error publish fail Cannot publish over existing version.
+97 error publish fail Update the 'version' field in package.json and try again.
+97 error publish fail
+97 error publish fail If the previous version was published in error, see:
+97 error publish fail     npm help unpublish
+97 error publish fail
+97 error publish fail To automatically increment version numbers, see:
+97 error publish fail     npm help version
+98 error System Darwin 12.3.0
+99 error command "node" "/usr/local/bin/npm" "publish"
+100 error cwd /Users/nikolay.ivanushkin/Documents/Aptana/node-typograph
+101 error node -v v0.10.4
+102 error npm -v 1.2.18
+103 error code EPUBLISHCONFLICT
+104 verbose exit [ 1, true ]
